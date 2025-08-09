@@ -64,7 +64,7 @@ void gol_step(GolContext *ctx) {
              + getAtPos(ctx, x, y - 1)
              + getAtPos(ctx, x + 1, y - 1)
              + getAtPos(ctx, x - 1, y)
-             + getAtPos(ctx, x + 2, y)
+             + getAtPos(ctx, x + 1, y)
              + getAtPos(ctx, x - 1, y + 1)
              + getAtPos(ctx, x, y + 1)
              + getAtPos(ctx, x + 1, y + 1);
